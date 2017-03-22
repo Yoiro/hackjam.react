@@ -1,0 +1,55 @@
+{
+  "name": "hackjam-react",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "run:browser": "live-server",
+    "run:watch": "webpack -w",
+    "prestart": "yarn install",
+    "start": "npm-run-all --parallel run:watch run:browser",
+    "deploy": "surge"
+  },
+  "keywords": [
+    "react, hackages, hackjam"
+  ],
+  "author": "team@hackages.io",
+  "license": "MIT",
+  "dependencies": {
+    "autobind": "^1.0.3",
+    "classnames": "^2.2.5",
+    "lodash": "^4.17.3",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-flip-move": "^2.7.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.6.0",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.9.0",
+    "live-server": "^1.1.0",
+    "node-sass": "^4.1.1",
+    "npm-run-all": "^2.1.1",
+    "postcss-loader": "^1.2.1",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.14.0",
+    "yarn": "^0.21.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackages/hackjam-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hackages/hackjam-react/issues"
+  },
+  "homepage": "https://github.com/hackages/hackjam-react#readme",
+  "description": "this application does'nt work, fix it please!!"
+}
